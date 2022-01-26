@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameObject">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAkAAAAAQAAAAAAAAQIAgBABQAQIUiAA=</HashCode>
+      <FileName>source\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Circle" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAgAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>source\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GunFire" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAQAAAEAAAAAAAAQAAAAAUAAA=</HashCode>
+      <FileName>source\GunFire.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleSystem" Collapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAIAAAAAAAAQQIAABAEAkAAABAAAAQAgAA=</HashCode>
+      <FileName>source\ParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLoop">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAgAQAAABAEoIBgQCAABAAAEhCBQIJAAZgQRAUgII=</HashCode>
+      <FileName>source\GameLoop.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gunFire" />
+      <Field Name="gameUI" />
+      <Field Name="myPlayer" />
+      <Field Name="particleSystem" />
+      <Field Name="bm" />
+      <Field Name="player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::unique_ptr&lt;_Ty, _Dx&gt;" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAAAAAAgEAEAAQgAAAAAAAAAAAQAgAAAAAIg=</HashCode>
+      <FileName>F:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\memory</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAiUABACQAQAEAAggIIEABAAAACwKAIAJACcBUgIg=</HashCode>
+      <FileName>source\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyManager">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAACACAQAAAAAAAAEQAAAAAAAgIBAAJAAACUhQA=</HashCode>
+      <FileName>source\EnemyManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player" />
+      <Field Name="enemies" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A2AAE4EiALJsCEBAAOMIIAASEEUAQBIggQkwAgAFUko=</HashCode>
+      <FileName>F:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAACACAAAAEAAAAAEAABgIAAQAAA=</HashCode>
+      <FileName>source\BulletManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="circle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BulletManager">
+    <Position X="12.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAEQIAAAAAAAAIQAAAAAAAAAAIRAIBAAgAEgAA=</HashCode>
+      <FileName>source\BulletManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Collectables">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACACAAAAAAAAAAAAAAABAAQAACAAAABgAAAUAAg=</HashCode>
+      <FileName>source\Collectables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameUI" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEiAQAgABAAACgIAAAAAAAIAAAAAIAQIBAQAAEgEA=</HashCode>
+      <FileName>source\GameUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button" Collapsed="true">
+    <Position X="15.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAgAAAAACIQAhgAAAQAAA=</HashCode>
+      <FileName>source\GameUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Enemy" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAACAAQAAAAAEAQAACABgAAAQAAA=</HashCode>
+      <FileName>source\EnemyManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
