@@ -1,38 +1,42 @@
-<!-- ABOUT THE PROJECT -->
-#  Awesome 2D Shooter Game
+Awesome 2D Shooter Game
 
-<!-- A screenshot of your game would be nice here... -->
-
-This is a short and succint description of this project. 
-Jump'n'run vaporwave zombie-shooting game. Run to the exit before the water gets too high, defend yourself against brain-hungry zombies :running_man:
+This is a short and succint description of this project. Jump'n'run vaporwave zombie-shooting game. Defend yourself against brain-hungry zombies 🏃‍♂️
 
 Features:
-* Collect and switch between weapons :bomb:
-* Load game maps from the main menu :desert_island:
-* Collect as many coins as you can :moneybag:
 
-Mechanics: 
-* Player can shoot enemies. 
-* Player can die if health is depleated. 
-* Collectables such as coins, weapons.  
+    Load game maps from files 🏝️
+    Collect as many coins as you can 💰
+    Zombie speed increased over time
+    Highscore implementation
+    Map collision
+    Sound implentation
+    Multiple zombies will spawn after a certain period
 
-## Dependencies
-* SDL library
+Mechanics:
 
-## Target platforms
+    Player can shoot enemies.
+    Player can die if health is depleated.
+    Destructible environment (rocks will be destroyed upon shoting)
+
+Dependencies
+
+    SDL library
+
+Target platforms
+
 Support Windows x86/x64, GNU/Linux, OSX.
 
 Instructions to build on Windows platforms:
-1) Load .sln solution with Visual Studio;
-2) Select Release configuration, and x64 Architecture;
-3) Compile and run the project.
 
-## TODO
+    Load .sln solution with Visual Studio;
+    Select Debug configuration, and x86 Architecture;
+    Compile and run the project.
 
-* A* pathfinding for zombie;
-* Weapon sound effects;
-* low-health camera effect.
+TODO
 
-## Contact
+    A* pathfinding for zombie;
+    low-health camera effect.
 
-Your Name - email@example.com
+Contact
+
+Email: stefan-alexandru.zarnescu@mail.bcu.ac.uk
